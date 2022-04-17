@@ -1,0 +1,36 @@
+.a1 {
+    padding: 100px;
+    background-color: #AA3333;
+}
+.a2 {
+    background-color: #868686;
+    font-size: 50px;
+    top: 50px;
+    left: 50px;
+    width: 60%;
+    padding: 30px
+}
+
+.a3 {
+    height: 500px;
+    overflow: scroll;
+    background-color: #5eb5e0;
+    left: 65%;
+    width: 25%;
+    padding: 30px
+}
+
+.a2 li li{
+    margin: 5px;
+    background-color: #5eb5e0;
+}
+
+.a3 div {
+
+}
+
+.a3 div ul li ul li li{
+    margin: 5px;
+    background-color: #5eb5e0;
+}
+
