@@ -1,8 +1,8 @@
-.a1 {
+.nav {
     padding: 100px;
     background-color: #AA3333;
 }
-.a2 {
+.main {
     background-color: #868686;
     font-size: 50px;
     top: 50px;
@@ -11,7 +11,7 @@
     padding: 30px
 }
 
-.a3 {
+.list {
     height: 500px;
     overflow: scroll;
     background-color: #5eb5e0;
@@ -20,16 +20,16 @@
     padding: 30px
 }
 
-.a2 li li{
+.main li li{
     margin: 5px;
     background-color: #5eb5e0;
 }
 
-.a3 div {
+.list div {
 
 }
 
-.a3 div ul li ul li li{
+.list div ul li ul li li{
     margin: 5px;
     background-color: #5eb5e0;
 }
