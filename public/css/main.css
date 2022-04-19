@@ -1,9 +1,12 @@
+body {
+    background-color: rosybrown;
+}
+
 .nav {
     padding: 100px;
-    background-color: #AA3333;
 }
 .main {
-    background-color: #868686;
+    border-color: #222222;
     font-size: 50px;
     top: 50px;
     left: 50px;
@@ -13,24 +16,48 @@
 
 .list {
     height: 500px;
-    overflow: scroll;
-    background-color: #5eb5e0;
+    overflow-y: scroll;
     left: 65%;
     width: 25%;
     padding: 30px
 }
 
-.main li li{
+.game-label{
+    text-align: center;
+    border-radius: 40px 40px 0 0;
+}
+
+.main .game-label{
+    font-size: 50px;
+}
+
+.main .game-label .name-label{
+    font-size: 70px;
+}
+
+.game-label .list-group-item{
+    background-color: rgba(100, 100, 100, 0.2);
+}
+
+
+.game-label .name-label {
+    background-color: rgba(80, 80, 80, 0.5);
+}
+
+.game-label .list-group .list-group-item{
     margin: 5px;
-    background-color: #5eb5e0;
+    background-color: rgba(80, 80, 80, 0.5);
 }
 
-.list div {
 
+.list .list-group-item{
+    background-color: rgba(100, 100, 100, 0);
+    border: none;
 }
 
-.list div ul li ul li li{
-    margin: 5px;
-    background-color: #5eb5e0;
+.list .game-label .name-label {
 }
+
+
+
 
