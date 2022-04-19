@@ -35,10 +35,6 @@ body {
     font-size: 70px;
 }
 
-.game-label .list-group-item{
-    background-color: rgba(100, 100, 100, 0.2);
-}
-
 
 .game-label .name-label {
     background-color: rgba(80, 80, 80, 0.5);
@@ -52,10 +48,14 @@ body {
 
 .list .list-group-item{
     background-color: rgba(100, 100, 100, 0);
-    border: none;
 }
 
-.list .game-label .name-label {
+.game-label .list-group-item{
+    background-color: rgba(100, 100, 100, 0.2);
+}
+
+.list .list-group-item{
+    border: none;
 }
 
 
