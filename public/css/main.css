@@ -1,10 +1,12 @@
 body {
     background-color: rosybrown;
+    display: block;
 }
 
-.nav {
-    padding: 100px;
+.nav{
+    border: 2px solid gray;
 }
+
 .main {
     border-color: #222222;
     font-size: 50px;
@@ -15,7 +17,7 @@ body {
 }
 
 .list {
-    height: 500px;
+    height: 525px;
     overflow-y: scroll;
     left: 65%;
     width: 25%;
