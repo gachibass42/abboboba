@@ -17,7 +17,6 @@
         {% endblock %}
     </head>
     <body>
-
         <div class="row">
             <div class="col-11 d-flex nav" >
                 <div class="p-2 icons"><i class="bi bi-house"></i></div>
@@ -26,85 +25,173 @@
                 <div class="p-2 icons"><i class="bi bi-book"></i></div>
             </div>
         </div>
-            <div class="row">
-                <div class="main col-8 border border-dark">
-                    <ul class="list-group game-label">
-                        <li class="list-group-item name-label">Game_name</li>
-                        <li class="list-group-item">
-                            <ul class="list-group">
-                                <li class="list-group-item">Char_1</li>
-                                <li class="list-group-item">Char_2</li>
-                                <li class="list-group-item">Char_3</li>
-                            </ul>
-                        </li>
-                    </ul>
+        <div class="row border border-dark">
+            <div class="main col-4">
+                <label class="top-label">Weapons</label>
+                <div class="div-table">
+                <p1>Typical Weapon Damage</p1>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Weapon</th>
+                        <th scope="col">Special Effect</th>
+                        <th scope="col">Damage</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                    </tr>
+                    </tbody>
+                </table>
                 </div>
-                <div class = "list col-3 border border-dark">
-                    <div class="overflow-auto scroll-container">
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                <ul class="list-group game-label">
-                                    <li class="list-group-item name-label">Game_name</li>
-                                    <li class="list-group-item">
-                                        <ul class="list-group">
-                                            <li class="list-group-item">Char_1</li>
-                                            <li class="list-group-item">Char_2</li>
-                                            <li class="list-group-item">Char_3</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="list-group-item">
-                                <ul class="list-group game-label">
-                                    <li class="list-group-item name-label">Game_name</li>
-                                    <li class="list-group-item">
-                                        <ul class="list-group">
-                                            <li class="list-group-item">Char_1</li>
-                                            <li class="list-group-item">Char_2</li>
-                                            <li class="list-group-item">Char_3</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="list-group-item">
-                                <ul class="list-group game-label">
-                                    <li class="list-group-item name-label">Game_name</li>
-                                    <li class="list-group-item">
-                                        <ul class="list-group">
-                                            <li class="list-group-item">Char_1</li>
-                                            <li class="list-group-item">Char_2</li>
-                                            <li class="list-group-item">Char_3</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="list-group-item">
-                                <ul class="list-group game-label">
-                                    <li class="list-group-item name-label">Game_name</li>
-                                    <li class="list-group-item">
-                                        <ul class="list-group">
-                                            <li class="list-group-item">Char_1</li>
-                                            <li class="list-group-item">Char_2</li>
-                                            <li class="list-group-item">Char_3</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="list-group-item">
-                                <ul class="list-group game-label">
-                                    <li class="list-group-item name-label">Game_name</li>
-                                    <li class="list-group-item">
-                                        <ul class="list-group">
-                                            <li class="list-group-item">Char_1</li>
-                                            <li class="list-group-item">Char_2</li>
-                                            <li class="list-group-item">Char_3</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="div-table">
+                <p1>Brawling Damage</p1>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Body</th>
+                            <th scope="col">3-4</th>
+                            <th scope="col">5-6</th>
+                            <th scope="col">7-8</th>
+                            <th scope="col">9-10</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Damage</th>
+                            <td>1d6</td>
+                            <td>2d6</td>
+                            <td>3d6</td>
+                            <td>4d6</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
+            <div class="main col-3">
+                <label class="top-label">Armor and mods</label>
+                <div class="div-table">
+                    <p1>TModifier Examples</p1>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Condition</th>
+                            <th scope="col">Mod Value</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Unfamiliar Tools</th>
+                            <td>-4</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Lack of instructions</th>
+                            <td>-2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Lack of parts</th>
+                            <td>-2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Complex task</th>
+                            <td>-3</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Never done task before</th>
+                            <td>-1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Under stress/attack</th>
+                            <td>-3</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Drunk/drugget/tired</th>
+                            <td>-4</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Trying to hide task</th>
+                            <td>-4</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">No visibility</th>
+                            <td>-4</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="div-table">
+                    <p1>Armor Stopping Power</p1>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Armor</th>
+                            <th scope="col">Stopping Power</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Leathers</th>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Kevlar</th>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Bodyweight suit</th>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Heavy Armorjack</th>
+                            <td>15</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="main col-5">
+                <label class="top-label">Cyberware</label>
+                <div class="div-table">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Cyberware</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Damage</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
